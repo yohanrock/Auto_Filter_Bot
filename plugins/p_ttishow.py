@@ -26,7 +26,7 @@ async def save_group(bot, message):
             await db.add_chat(message.chat.id, message.chat.title)
         if message.chat.id in temp.BANNED_CHATS:
 
-            buttons = [[InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=OWNER_LNK)]]
+            buttons = [[InlineKeyboardButton('⚔️ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ⚔️', url=OWNER_LNK)]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(text='<b>ᴄʜᴀᴛ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ 🐞\n\nᴍʏ ᴀᴅᴍɪɴꜱ ʜᴀꜱ ʀᴇꜱᴛʀɪᴄᴛᴇᴅ ᴍᴇ ꜰʀᴏᴍ ᴡᴏʀᴋɪɴɢ ʜᴇʀᴇ ! ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ɪᴛ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ.</b>',reply_markup=reply_markup,)
             try:
@@ -36,11 +36,11 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton("👩‍🌾 Bot Owner 👩‍🌾", url=OWNER_LNK)
+                    InlineKeyboardButton("⚡ ʙᴏᴛ ᴏᴡɴᴇʀ ⚡", url=OWNER_LNK)
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            text=f"<b>Thank You For Adding Me In {message.chat.title} ❣️\n\nIf You have any questions & doubts about using me contact support.</b>",
             reply_markup=reply_markup)
         try:
             await db.connect_group(message.chat.id, message.from_user.id)
@@ -62,7 +62,7 @@ async def save_group(bot, message):
                         caption=script.MELCOW_ENG.format(u.mention, message.chat.title),
                         reply_markup=InlineKeyboardMarkup([
                                 [
-                                    InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=OWNER_LNK)
+                                    InlineKeyboardButton("⚔️ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ⚔️", url=OWNER_LNK)
                                 ]]),parse_mode=enums.ParseMode.HTML)
                 except Exception as e:
                     print(f"Welcome photo send failed: {e}")
@@ -86,7 +86,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-                  InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=OWNER_LNK)
+                  InlineKeyboardButton("⚔️ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ⚔️", url=OWNER_LNK)
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -125,7 +125,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=OWNER_LNK)
+            InlineKeyboardButton('⚔️ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ ⚔️', url=OWNER_LNK)
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
