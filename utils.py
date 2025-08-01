@@ -408,7 +408,7 @@ async def group_setting_buttons(grp_id):
                 InlineKeyboardButton('✔ Oɴ' if settings.get("is_verify", IS_VERIFY) else '✘ Oғғ', callback_data=f'setgs#is_verify#{settings.get("is_verify", IS_VERIFY)}#{grp_id}'),
             ],
             [
-                InlineKeyboardButton("❌ Remove ❌ ", callback_data=f"removegrp#{grp_id}")
+                InlineKeyboardButton("🚫 Remove 🚫 ", callback_data=f"removegrp#{grp_id}")
             ],
             [
                 InlineKeyboardButton('⇋ ᴄʟᴏꜱᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴍᴇɴᴜ ⇋', callback_data='close_data')
@@ -788,7 +788,7 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
                 f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n"
                 f"🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n\n"
                 f"📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {query.from_user.mention}\n"
-                f"⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {query.message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'}\n</b>"
+                f"⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {query.message.chat.title or temp.B_LINK or 'ɪɴғɪɴɪᴛʏ ᴍᴏᴠɪᴇs'}\n</b>"
             )
             cap += "\n\n🧾 <u>Your Requested Files Are Here</u> 👇\n\n</b>"
             for idx, file in enumerate(files, start=offset):
