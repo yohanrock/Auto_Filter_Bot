@@ -22,8 +22,8 @@ CMD = ["/", "."]
 
 @Client.on_message(filters.command("alive", CMD))
 async def check_alive(_, message):
-    sticker = await message.reply_sticker("CAACAgIAAxkBAAEBVAlmCYqbLub_o5pVUOEwbqhV8kRytgACRBkAAgjh2UlSqev16oISqB4E") 
-    text = await message.reply_text("Yᴏᴜ ᴀʀᴇ ᴠᴇʀʏ ʟᴜᴄᴋʏ 🤞 I ᴀᴍ ᴀʟɪᴠᴇ ❤️\nPʀᴇss /start ᴛᴏ ᴜsᴇ ᴍᴇ!")
+    sticker = await message.reply_sticker("CAACAgIAAxkBAAEBvtNodL1TEC3Ao0cxQXmfogkDVK1n_wACVAADQbVWDGq3-McIjQH6HgQ") 
+    text = await message.reply_text("I ᴀᴍ ᴀʟɪᴠᴇ ❤️\nPʀᴇss /start ᴛᴏ ᴜsᴇ ᴍᴇ!")
     await asyncio.sleep(60)
     await sticker.delete()
     await text.delete()
@@ -35,7 +35,7 @@ async def ping(_, message):
     rm = await message.reply_text("...")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await rm.edit(f"🏓 Ping! : {time_taken_s:.3f} ms")
+    await rm.edit(f"⚡ Ping! : {time_taken_s:.3f} ms")
     await asyncio.sleep(60)
     await rm.delete()
     await message.delete()
