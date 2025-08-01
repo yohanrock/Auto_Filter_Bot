@@ -174,8 +174,8 @@ async def plan(client, message):
     btn = [[
             InlineKeyboardButton('♻️ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ♻️', callback_data='buy_info'),
         ],[
-            InlineKeyboardButton('📲 ʀᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ', callback_data='reffff'),
-            InlineKeyboardButton('📱 ꜰʀᴇᴇ ᴛʀɪᴀʟ 📱', callback_data='free')
+            InlineKeyboardButton('📲 ʀᴇꜰᴇʀ ꜰʀɪᴇɴᴅꜱ 📲', callback_data='reffff'),
+            InlineKeyboardButton('🧿 ꜰʀᴇᴇ ᴛʀɪᴀʟ 🧿', callback_data='free')
         ],[
             InlineKeyboardButton('🚫 ᴄʟᴏꜱᴇ 🚫', callback_data='close_data')
         ]]
