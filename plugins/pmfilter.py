@@ -1615,7 +1615,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     ),
                     parse_mode=enums.ParseMode.HTML,
                     reply_markup=InlineKeyboardMarkup([[
-                        InlineKeyboardButton("🚀 Buy Premium 🚀", callback_data="premium_info")
+                        InlineKeyboardButton("♻️ Buy Premium ♻️", callback_data="premium_info")
                     ]])
                 )
                 await asyncio.sleep(DELETE_TIME)
