@@ -180,7 +180,7 @@ async def plan(client, message):
             InlineKeyboardButton('🚫 ᴄʟᴏꜱᴇ 🚫', callback_data='close_data')
         ]]
     msg = await message.reply_photo(
-        photo="https://graph.org/file/86da2027469565b5873d6.jpg",
+        photo="https://files.catbox.moe/l3nsdz.jpeg",
         caption=script.BPREMIUM_TXT,
         reply_markup=InlineKeyboardMarkup(btn)
     )
