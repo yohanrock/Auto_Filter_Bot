@@ -219,11 +219,9 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 📺 ᴏᴛᴛ       : <b>{ott}</b>
 
-☀️ ʟᴀɴɢᴜᴀɢᴇs : <code>{languages}</code>
-
 🎞️ ǫᴜᴀʟɪᴛʏ    : <b>{quality}</b>
 
-🎧 ᴀᴜᴅɪᴏ     : <b>{language}</b>
+☀️ ʟᴀɴɢᴜᴀɢᴇs  : <b>{language}</b>
 
 🔥 ʀᴀᴛɪɴɢ     : <b>{rating}</b>
 
