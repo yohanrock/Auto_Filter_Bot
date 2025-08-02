@@ -2,7 +2,7 @@
   <img src="https://i.ibb.co/5WZMJQnm/photo-2025-08-01-15-12-45-7533635368923430916.jpg" alt="DreamxBotz Logo">
 </p>
 
-<h1 align="center">𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</h1>
+<h1 align="center">ʏᴏʜᴀɴ ʀᴏᴄᴋsᴛᴀʀ</h1>
 
 ---
 
