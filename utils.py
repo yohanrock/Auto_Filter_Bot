@@ -728,7 +728,6 @@ def clean_search_text(search_raw: str) -> str:
     else:
         return ""
 
-
 async def get_cap(settings, remaining_seconds, files, query, total_results, search, offset=0):
     try:
         if settings["imdb"]:
