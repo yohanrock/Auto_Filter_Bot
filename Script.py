@@ -8,7 +8,7 @@ class script(object):
 
     GSTART_TXT = """𝗛𝗲𝗹𝗹𝗼 <b>{}</b>,
     
-𝗜𝗔𝗠 <a href=https://t.me/infinity_movies2bot>𝗜𝗡𝗙𝗜𝗡𝗜𝗧𝗬 𝗠𝗢𝗩𝗜𝗘𝗦 𝗥𝗢𝗕𝗢𝗧</a>, ✨ 𝗜 𝗖𝗔𝗡 𝗣𝗥𝗢𝗩𝗜𝗗𝗘 𝗠𝗢𝗩𝗜𝗘𝗦 & 𝗦𝗘𝗥𝗜𝗘𝗦, 𝗝𝗨𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ✨. 
+𝗜𝗔𝗠 <a href=https://t.me/infinity_movies2bot>𝗜𝗡𝗙𝗜𝗡𝗜𝗧𝗬 𝗠𝗢𝗩𝗜𝗘𝗦 𝗥𝗢𝗕𝗢𝗧</a>, ✨ 𝗜 𝗖𝗔𝗡 𝗣𝗥𝗢𝗩𝗜𝗗𝗘 𝗠𝗢𝗩𝗜𝗘𝗦 & 𝗦𝗘𝗥𝗜𝗘𝗦, 𝗝𝗨𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗢𝗥 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 ✨. 
 
 𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 - <a href=https://t.me/infinity_movies2>𝗜𝗡𝗙𝗜𝗡𝗜𝗧𝗬 𝗠𝗢𝗩𝗜𝗘𝗦</a>"""
 
