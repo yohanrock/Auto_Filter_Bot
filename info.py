@@ -190,9 +190,8 @@ BAD_WORDS = {
     "www",
     "villa",
     "tg",
-    "original"
+    "original", 
     "movies2"
-    "Movies2"
 } # Set of bad words to filter out
    
 
