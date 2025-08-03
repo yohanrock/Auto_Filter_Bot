@@ -192,6 +192,7 @@ BAD_WORDS = {
     "tg",
     "original"
     "movies2"
+    "Movies2"
 } # Set of bad words to filter out
    
 
