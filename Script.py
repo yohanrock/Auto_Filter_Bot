@@ -225,7 +225,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 🔥 ʀᴀᴛɪɴɢ     : <b>{rating}</b>
 
-⚡ ᴇᴘɪsᴏᴅᴇs   : <b>{episodes}</b>
+{episodes}
 </blockquote>
 
 🔍 <b>Sᴇᴀʀᴄʜ ʜᴇʀᴇ →</b> {search_link} 📲
