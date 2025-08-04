@@ -1475,12 +1475,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡ Fast Download ⚡", url=dreamx_download),  # we download Link
                                                     InlineKeyboardButton('💻 Watch online 💻', url=dreamx_stream)]])  # web stream Link
             )
-            dreamcinezone = await query.message.reply_text(
-                text="•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ☠︎⚔",
-                quote=True,
-                disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡ Fast Download ⚡", url=dreamx_download),  # we download Link
-                                                    InlineKeyboardButton('💻 Watch online 💻', url=dreamx_stream)]])  # web stream Link
+            dreamcinezone = await query.edit_message_reply_markup(
+                reply_markup=InlineKeyboardMarkup([
+                    [
+                        InlineKeyboardButton("⚡ Fast Download ⚡", url=dreamx_download),
+                        InlineKeyboardButton('💻 Watch Online ⚡', url=dreamx_stream)
+                    ],
+                    [
+                        InlineKeyboardButton('⚡ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚡', url=UPDATE_CHNL_LNK)
+                    ]
+                ])
             )
             await asyncio.sleep(DELETE_TIME)
             await dreamcinezone.delete()
@@ -1489,6 +1493,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             print(e)
             await query.answer(f"⚠️ SOMETHING WENT WRONG STREAM LINK  \n\n{e}", show_alert=True)
             return
+
+    
     elif query.data == "prestream":
         await query.answer(text=script.PRE_STREAM_ALERT, show_alert=True)
         dreamcinezone = await client.send_photo(
