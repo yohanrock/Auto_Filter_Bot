@@ -101,9 +101,9 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002765580351')) #Verificat
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002765580351')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://files.catbox.moe/a46151.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/infinity_movies_updates")   # Tutorial link for verification
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/infinity_movies_updates")   # Second tutorial link for verification
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/infinity_movies_updates")   # Third tutorial link for verification
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/shortnerlinksolve/26")   # Tutorial link for verification
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/shortnerlinksolve/26")   # Second tutorial link for verification
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/shortnerlinksolve/26")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
 SHORTENER_API = environ.get("SHORTENER_API", "7e54127636327bb06e8c7264f74902c80460b2b6") # Shortener API key
@@ -115,8 +115,8 @@ SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "fc.lc") # Shortener webs
 SHORTENER_API3 = environ.get("SHORTENER_API3", "7e54127636327bb06e8c7264f74902c80460b2b6")  
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "fc.lc") # Shortener website for third website
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200")) # Time gap for two-step verification in seconds (default: 20 minutes)
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))    
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400")) # Time gap for two-step verification in seconds (default: 20 minutes)
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))    
 
 # ============================
 # Channel & Group Links Configuration
