@@ -107,13 +107,13 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/shortnerlinksolve/26")   # 
 
 # Verification (Must Fill All Veriables. Else You Got Error
 SHORTENER_API = environ.get("SHORTENER_API", "H4oMG4h8TfXwkOFLeabYSIwzaUL2") # Shortener API key
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shrs.link") # Shortener website
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shareus.io") # Shortener website
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "H4oMG4h8TfXwkOFLeabYSIwzaUL2")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shrs.link") # Shortener website for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shareus.io") # Shortener website for second website
 
 SHORTENER_API3 = environ.get("SHORTENER_API3", "H4oMG4h8TfXwkOFLeabYSIwzaUL2")  
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shrs.link") # Shortener website for third website
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shareus.io") # Shortener website for third website
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400")) # Time gap for two-step verification in seconds (default: 20 minutes)
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))    
