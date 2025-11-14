@@ -101,22 +101,22 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002765580351')) #Verificat
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002765580351')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://files.catbox.moe/a46151.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/shortnerlinksolve/26")   # Tutorial link for verification
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/shortnerlinksolve/26")   # Second tutorial link for verification
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/shortnerlinksolve/28")   # Tutorial link for verification
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/shortnerlinksolve/28")   # Second tutorial link for verification
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/shortnerlinksolve/26")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "03a1f31a88c44180200c606b9903b37404440f16") # Shortener API key
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "gplinks.com") # Shortener website
+SHORTENER_API = environ.get("SHORTENER_API", "38ce4ffd647c0d8da1d9654a4d990979a5d11d34") # Shortener API key
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "anyshorturl.com") # Shortener website
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "03a1f31a88c44180200c606b9903b37404440f16")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "gplinks.com") # Shortener website for second website
+SHORTENER_API2 = environ.get("SHORTENER_API2", "38ce4ffd647c0d8da1d9654a4d990979a5d11d34")  # Shortener API key for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "anyshorturl.com") # Shortener website for second website
 
 SHORTENER_API3 = environ.get("SHORTENER_API3", "03a1f31a88c44180200c606b9903b37404440f16")  
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "gplinks.com") # Shortener website for third website
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400")) # Time gap for two-step verification in seconds (default: 20 minutes)
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))    
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "10800")) # Time gap for two-step verification in seconds (default: 20 minutes)
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "10800"))    
 
 # ============================
 # Channel & Group Links Configuration
