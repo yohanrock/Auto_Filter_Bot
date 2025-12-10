@@ -106,11 +106,11 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/shortnerlinksolve/28")   # 
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/shortnerlinksolve/26")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "38ce4ffd647c0d8da1d9654a4d990979a5d11d34") # Shortener API key
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "anyshorturl.com") # Shortener website
+SHORTENER_API = environ.get("SHORTENER_API", "03a1f31a88c44180200c606b9903b37404440f16") # Shortener API key
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "gplinks.com") # Shortener website
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "38ce4ffd647c0d8da1d9654a4d990979a5d11d34")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "anyshorturl.com") # Shortener website for second website
+SHORTENER_API2 = environ.get("SHORTENER_API2", "03a1f31a88c44180200c606b9903b37404440f16")  # Shortener API key for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "gplinks.com") # Shortener website for second website
 
 SHORTENER_API3 = environ.get("SHORTENER_API3", "03a1f31a88c44180200c606b9903b37404440f16")  
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "gplinks.com") # Shortener website for third website
